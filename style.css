@@ -392,7 +392,7 @@ hospitality-section */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .menu{
-        display: inline-block;
+        display: inline;
     }
     .lang{
         display: inline-block;
@@ -407,6 +407,27 @@ hospitality-section */
         top: 30%;
         display: block;
         
+    }
+    #nav-btns{
+        display: none;
+    }
+    #nav-btns{
+        display:none;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btns{
+        display: none;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btn{
+        display: none;
+    }
+    #close-btn{
+        display: none;
     }
 }
 
