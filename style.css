@@ -321,14 +321,14 @@ hospitality-section */
         flex-flow:column-reverse;
     }
     .hero-text{
-        margin-top: 20px;
+        margin-top: 0px;
         width: 100%;
         height: 10px;
         align-items: center;
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 40%;
+        top: 10%;
         display: block;
         
     }
@@ -372,6 +372,18 @@ hospitality-section */
     #close-btn{
         display: none;
     }
+    .hero-text{
+        margin-top: 0px;
+        width: 100%;
+        height: 10px;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 0%;
+        display: block;
+        
+    }
    
    
  
@@ -384,6 +396,17 @@ hospitality-section */
     }
     .lang{
         display: inline-block;
+    }
+    .hero-text{
+        margin-top: 20px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 30%;
+        display: block;
+        
     }
 }
 
