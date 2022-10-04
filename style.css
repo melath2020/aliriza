@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #151617;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar-header{
+    background-color:#222427;
+    position: fixed;
+    z-index: 1;
+    top: -120px;
+    width:100vw;
+    display: block;
+    transition: top 0.3s;
+ 
+    
+}
+
+/* mobile-menu */
+
+.menu-mob{
+    color: #d3b47d;;
+    font-size: 25px;
+    margin-top: -60px;
+   text-align: end;
+   width: 100%;
+    font-size: 27px;
+}
+.menu-mob .fa-bars{
+    color: #d3b47d;;
+    font-size: 30px;
+    margin-top: -140px;
+    margin-right: 20px;
+    
+}
+.menu-mob .fa-xmark{
+    color: #d3b47d;
+    font-size: 30px;
+    margin-top: -140px;
+    margin-right: 20px;
+   
+}
+
+
+/* mobile-nav */
+.mobile-nav-wrapper{
+
+    display:none;
+    position: fixed;
+    width:100vw;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background:linear-gradient(to bottom,rgba(27, 27, 27, 0.226),rgb(48, 46, 46));
+    height: 100vh;
+    
+    transition: top 0.3s;
+}
+.mobile-nav-wrappers{
+
+    display:none;
+    position: fixed;
+    width:100vw;
+    
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background:linear-gradient(to bottom,rgba(27, 27, 27, 0.226),rgb(48, 46, 46));
+    height: 100vh;
+    transition: top 0.3s;
+}
+
+.mobile-nav{
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-bottom: #d3b47d solid 3px;
+    border-left: #d3b47d solid 3px;
+    border-right: #d3b47d solid 3px;
+    font-size: 18px;
+    padding: 1rem;
+    border-radius: 5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.mobile-nav a{
+    font-weight: 600;
+    color:rgb(117, 115, 115); 
+    text-decoration: none;
+    margin: 1rem 0;
+    font-size: 20px;
+}
+.mobile-nav a:hover{
+    font-weight: 600;
+    color:#d3b47d; 
+    text-decoration: none;
+    margin: 1rem 0;
+    font-size: 20px;
+}
+
+/* header-section */
+.header-section{
+    font-size: 12px;
+    
+
+}
+
+.logo img{
+    height: 100px;
+    width: 200px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    
+}
+
+
+
+
+/* hero-section */
+
+
+.hero-text{
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    display: block;
+    
+}
+.hero-text b{
+    color: #d3b47d;
+}
+.page-nav{
+    font-size:14px;
+}
+.right{
+    background-image: url("assets/Layer\ 41.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.right img{
+    width: 100%;
+}
+
+
+/* 
+hospitality-section */
+.hospitality-section .row{
+    margin-top: 20px;
+}
+.hospitality-section img{
+    width: 100%;
+    height: 100%;
+}
+.hospitality-section .left{
+    margin-top: 50px;
+}
+.hos-text{
+    margin-top: 80px;
+    font-size: 14px;
+}
+.hos-text b{
+
+    color: #d3b47d;
+}
+
+
+
+/* health-section  */
+.health-section img{
+    width: 100%;
+
+}
+.health-text{
+    margin-top:150px;
+    font-size: 14px;
+}
+.health-text b{
+    
+    color: #d3b47d;
+}
+.health-text .sub-txt{
+    text-align: right;
+}
+/* smartcity-section */
+.smartcity-section img{
+    width: 100%;
+}
+/* .autonomous-section */
+.autonomous-section img{
+    width: 100%;
+
+}
+
+/* warehouse-section 
+*/
+
+.warehouse-section img{
+    width: 100%;
+}
+
+/* industry-section */
+.industry-section img{
+    width: 100%;
+}
+
+/* newshead-section */
+
+.newshead-section{
+    margin-top: 100px
+}
+
+
+
+/* .newshead-section */
+
+.newshead-section b{
+    color: #d3b47d;
+}
+
+/* news-card section  */
+.newscard-section{
+    padding-bottom: 80px;
+}
+.card-title b{
+    font-size: 14px;
+    color: #d3b47d;
+}
+.card-text{
+    font-size: 12px;
+}
+.subtxt-card{
+    font-size: 12px;
+}
+
+/* footer-section */
+.footer-section{
+    padding-bottom: 30px;
+}
+.logo-txt{
+    font-size: 9px;
+}
+.title-footer{
+    margin-top: 15px;
+}
+.title-footer b{
+    color: #d3b47d;
+}
+.link{
+    font-size: 10px;
+}
+
+/* last-footer */
+.footer-txt{
+    font-size: 10px;
+}
+.social-media b{
+    color: #d3b47d;
+}
+.socialmedia-logo{
+    color: #fff;
+}
+.fa-brands{
+    margin-left: 6px;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .menu{
+        display: none
+    }
+    .lang{
+        display: none;
+    }
+    #nav-btns{
+        display: inline-block;
+    }
+    #nav-btns{
+        display:inline-block;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btns{
+        display: inline-block;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btn{
+        display: inline-block;
+    }
+    #close-btn{
+        display: none;
+    }
+    .hero-section{
+        flex-flow:column-reverse;
+    }
+    .hero-text{
+        margin-top: 20px;
+        width: 100%;
+        height: 10px;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 40%;
+        display: block;
+        
+    }
+    .hero-text{
+        text-align: center;
+        margin-top: 50%;
+    }
+    
+    
+    
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .menu{
+        display: none
+    }
+    .lang{
+        display: none;
+    }
+    #nav-btns{
+        display: inline-block;
+    }
+    #nav-btns{
+        display:inline-block;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btns{
+        display: inline-block;
+    }
+    #close-btns{
+        display: none;
+    }
+    #nav-btn{
+        display: inline-block;
+    }
+    #close-btn{
+        display: none;
+    }
+   
+   
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .menu{
+        display: inline-block;
+    }
+    .lang{
+        display: inline-block;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .menu-mob{
+        display: none;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .lang{
+        display: inline-block;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .menu-mob{
+        display: none;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .lang{
+        display: inline-block;
+    }
+}
