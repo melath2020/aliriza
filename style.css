@@ -269,6 +269,9 @@ hospitality-section */
 }
 
 /* last-footer */
+.footer{
+    padding-bottom: 20px;
+}
 .footer-txt{
     font-size: 10px;
 }
