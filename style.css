@@ -7,6 +7,7 @@ body{
     background-color: #151617;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 #navbar-header{
@@ -143,6 +144,7 @@ body{
     top: 30%;
     display: block;
     
+    
 }
 .hero-text b{
     color: #d3b47d;
@@ -163,6 +165,7 @@ body{
 
 /* 
 hospitality-section */
+
 .hospitality-section .row{
     margin-top: 20px;
 }
